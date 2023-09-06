@@ -62,7 +62,7 @@ public class FakeApiController {
   @Operation(summary = "Exclui produto pelo nome", method = "DELETE")
   @ApiResponses(
       value = {
-        @ApiResponse(responseCode = "200", description = "Produto excluído com Sucesso."),
+        @ApiResponse(responseCode = "202", description = "Produto excluído com Sucesso."),
         @ApiResponse(responseCode = "500", description = "Erro ao excluir o produto.")
       })
   @DeleteMapping("/")
